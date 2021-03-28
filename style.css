@@ -1,30 +1,40 @@
-* {
+/**{
+  
+  Everything in this "class" affects the whole page
+
   background-color: whitesmoke;
-}
+  
+}*/
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
 }
 .pageFrame {
   max-width: 1200px;
   margin: auto;
-}
-header {
-  background-color: black;
+  background-color: whitesmoke;
 }
 header nav {
-  text-align: center;
-  padding: 20px 40px 60px 40px;
   height: auto;
   width: auto;
+  text-align: center;
+  padding: 20px 40px 60px 40px;
   background-color: gainsboro;
 }
-header nav a {
-  color: black;
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
   text-decoration: none;
-  background-color: gainsboro;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: black;
+  background-color: gainsboro;
+}
+ul li a:hover {
+  color: rgb(0, 217, 255);
 }
 section {
   padding: 20px;
