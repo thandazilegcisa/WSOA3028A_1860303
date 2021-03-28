@@ -14,10 +14,13 @@ body {
   margin: auto;
   background-color: whitesmoke;
 }
+header {
+  border-radius: 10px;
+}
 header nav {
   height: auto;
   width: auto;
-  text-align: center;
+  text-align: right;
   padding: 20px 40px 60px 40px;
   background-color: gainsboro;
 }
@@ -32,21 +35,51 @@ ul li a {
   padding: 20px;
   color: black;
   background-color: gainsboro;
+  text-decoration: overline;
+  text-decoration-color: grey;
 }
 ul li a:hover {
-  color: rgb(0, 217, 255);
+  color: whitesmoke;
 }
-section {
-  padding: 20px;
+#mybtn a:hover {
+  color: gray;
+}
+.blogPostTitle a:hover {
+  color: gray;
+}
+.blogPostTitle {
+  width: 60% auto;
+  height: 60px;
+  display: grid;
+  place-items: center;
+}
+.singlePageBlogLink {
+  text-decoration: none;
+  color: black;
+}
+.readMore {
+  margin-top: 20px;
+  margin-right: 80px;
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-position: right;
+  background: gainsboro;
 }
 main {
   width: 70%;
+  /*In Css when an element is floated it becomes detached from the normal element flow */
+  float: left;
 }
 main p {
   font-size: 1.1rem;
   line-height: 1.6rem;
 }
 footer {
+  content: "";
+  display: block;
+  clear: both;
   text-align: center;
   padding: 20px 40px 20px 40px;
 }
