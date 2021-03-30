@@ -16,6 +16,7 @@ body {
 }
 header {
   border-radius: 10px;
+  text-align: center;
 }
 header nav {
   height: auto;
