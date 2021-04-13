@@ -21,7 +21,7 @@ header {
 header nav {
   height: auto;
   width: auto;
-  text-align: right;
+  text-align: center;
   padding: 20px 40px 60px 40px;
   background-color: gainsboro;
 }
@@ -76,6 +76,10 @@ main {
 main p {
   font-size: 1.1rem;
   line-height: 1.6rem;
+}
+.h5 {
+  font-style: normal;
+  font;
 }
 footer {
   content: "";
