@@ -1,0 +1,25 @@
+p {
+  text-align: justify;
+}
+main {
+  width: 70%;
+  /*In Css when an element is floated it becomes detached from the normal element flow*/
+  float: left;
+}
+footer {
+  text-align: center;
+}
+.forkingPathsImage {
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+.browsersImage {
+  float: left;
+  padding: 0px 20px 0px 0px;
+  width: 70%;
+}
+.interactivityImage {
+  float: left;
+  padding: 0px 20px 0px 0px;
+  width: 70%;
+}

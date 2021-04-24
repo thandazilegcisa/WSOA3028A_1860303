@@ -7,12 +7,12 @@
 }*/
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .pageFrame {
   max-width: 1200px;
   margin: auto;
-  background-color: whitesmoke;
+  background-color: white;
 }
 header {
   border-radius: 10px;
@@ -22,8 +22,8 @@ header nav {
   height: auto;
   width: auto;
   text-align: center;
-  padding: 20px 40px 60px 40px;
-  background-color: gainsboro;
+  padding: 40px 40px 40px 40px;
+  background-color: #fff;
 }
 ul li {
   list-style: none;
@@ -33,11 +33,11 @@ ul li a {
   text-decoration: none;
   font-size: 24px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 20px;
+  padding: 35px;
   color: black;
-  background-color: gainsboro;
+  background-color: #fff;
   text-decoration: overline;
-  text-decoration-color: grey;
+  text-decoration-color: #fff;
 }
 ul li a:hover {
   color: whitesmoke;
@@ -54,32 +54,14 @@ ul li a:hover {
   display: grid;
   place-items: center;
 }
-.singlePageBlogLink {
-  text-decoration: none;
-  color: black;
-}
-.readMore {
-  margin-top: 20px;
-  margin-right: 80px;
-  width: 120px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-position: right;
-  background: gainsboro;
-}
-main {
+/*main {
   width: 70%;
-  /*In Css when an element is floated it becomes detached from the normal element flow */
+  /*In Css when an element is floated it becomes detached from the normal element flow
   float: left;
-}
+}*/
 main p {
   font-size: 1.1rem;
   line-height: 1.6rem;
-}
-.h5 {
-  font-style: normal;
-  font;
 }
 footer {
   content: "";

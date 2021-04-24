@@ -1,0 +1,16 @@
+img {
+  width: 50%;
+  padding: 35px;
+  float: left;
+}
+.FirstSkateboardParagraph {
+  padding: 26px;
+  text-align: justify;
+}
+.shoesHangingParagraph {
+  padding: 26px;
+  text-align: justify;
+}
+hr {
+  float: none;
+}

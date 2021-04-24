@@ -1,0 +1,38 @@
+h1 {
+  text-align: Left;
+  font-size: 30px;
+  font-style: normal;
+  padding: 40px;
+}
+.aboutSection {
+  padding: 10px;
+}
+.aboutUsParagraph {
+  text-align: justify;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#innerElement {
+  float: left;
+  padding: 35px;
+  border-radius: 50%;
+  width: 30%;
+}
+.twitter {
+  width: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.facebook {
+  width: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.instagram {
+  width: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+hr {
+  float: none;
+}
