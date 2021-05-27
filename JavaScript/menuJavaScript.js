@@ -25,7 +25,6 @@ function displayUiNavElements(){
         li.appendChild(a);  
     }
 }
-displayUiNavElements();
 console.log(document.body);
 
-document.addEventListener('DOMContentLoaded', () => displayUiNavElements); // The client is going execute this function when initial html doc has been completely loaded
+document.addEventListener('DOMContentLoaded', displayUiNavElements()); // The client is going execute this function when initial html doc has been completely loaded

@@ -1,25 +1,74 @@
+main {
+  width: 100%;
+  /*In Css when an element is floated it becomes detached from the normal element flow*/
+
+  /*float: left;*/
+}
+.postOne-Card,
+.postTwo-Card,
+.postThree-Card,
+.postFour-Card,
+.postFive-Card {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.postOne-Article,
+.postTwo-Article,
+.postThree-Article,
+.postFour-Article,
+.postFive-Article {
+  width: 100%;
+  max-width: 1500px;
+  padding: 10px;
+  background-color: #cccccc70;
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+.postOne-Image,
+.postThree-Image,
+.postFive-Image {
+  min-width: 350px;
+  max-width: 500px;
+
+  height: 450px;
+  transform: translateX(-125px);
+  position: relative;
+}
+.forkingPathsImage,
+.browsersImage,
+.interactivityImage {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 65px;
+  box-shadow: 0.3rem 0.5rem 3rem 0.3rem rgba(0, 0, 5, 0.397);
+}
 p {
   text-align: justify;
 }
-main {
-  width: 70%;
-  /*In Css when an element is floated it becomes detached from the normal element flow*/
-  float: left;
+.readMoreButton {
+  width: 50%;
+  height: 50px;
+  position: relative;
+  top: -25px;
+  left: 380px;
+  background-color: rgba(255, 255, 255, 0.192);
+  border-style: groove;
+}
+.readMoreButtonFive {
+  width: 50%;
+  height: 50px;
+  position: relative;
+  top: -5px;
+  left: 300px;
+  background-color: rgba(255, 255, 255, 0.192);
+  border-style: groove;
 }
 footer {
   text-align: center;
-}
-.forkingPathsImage {
-  float: left;
-  padding: 0px 20px 0px 0px;
-}
-.browsersImage {
-  float: left;
-  padding: 0px 20px 0px 0px;
-  width: 70%;
-}
-.interactivityImage {
-  float: left;
-  padding: 0px 20px 0px 0px;
-  width: 70%;
 }
