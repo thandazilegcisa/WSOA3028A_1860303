@@ -1,8 +1,8 @@
 main {
   width: 100%;
   /*In Css when an element is floated it becomes detached from the normal element flow*/
-
-  /*float: left;*/
+  /*float: left;
+  */
 }
 .postOne-Card,
 .postTwo-Card,
@@ -29,6 +29,7 @@ main {
   border-radius: 0.8rem;
 }
 .postOne-Image,
+.postTwo-Image,
 .postThree-Image,
 .postFive-Image {
   min-width: 350px;
@@ -39,8 +40,10 @@ main {
   position: relative;
 }
 .forkingPathsImage,
+.bernersLeeImage,
 .browsersImage,
-.interactivityImage {
+.interactivityImage,
+.mediumisMessageImage {
   width: 120%;
   height: 100%;
   object-fit: cover;
@@ -48,27 +51,37 @@ main {
   border-radius: 65px;
   box-shadow: 0.3rem 0.5rem 3rem 0.3rem rgba(0, 0, 5, 0.397);
 }
+.bernersLeeImage,
+.mediumisMessageImage,
+.interactivityImage {
+  width: 87%;
+}
 p {
   text-align: justify;
 }
-.readMoreButton {
-  width: 50%;
-  height: 50px;
-  position: relative;
-  top: -25px;
-  left: 380px;
-  background-color: rgba(255, 255, 255, 0.192);
-  border-style: groove;
-}
+.readMoreButton,
+.readMoreButtonTwo,
+.readMoreButtonFour,
 .readMoreButtonFive {
   width: 50%;
   height: 50px;
   position: relative;
   top: -5px;
-  left: 300px;
+  left: 380px;
   background-color: rgba(255, 255, 255, 0.192);
   border-style: groove;
 }
+.readMoreButtonTwo {
+  width: 60%;
+  left: 245px;
+}
+.readMoreButtonFour {
+  left: 300px;
+}
+.readMoreButtonFive {
+  left: 300px;
+}
 footer {
-  text-align: center;
+  position: relative;
+  left: 380px;
 }
