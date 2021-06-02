@@ -21,7 +21,7 @@ function displayUiNavElements(){
         a.innerText = navItem.title;
         a.href = navItem.link;
 
-        ul.appendChild(li)
+        ul.appendChild(li);
         li.appendChild(a);  
     }
     
