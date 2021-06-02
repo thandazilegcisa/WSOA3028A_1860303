@@ -8,7 +8,10 @@ main {
 .postTwo-Card,
 .postThree-Card,
 .postFour-Card,
-.postFive-Card {
+.postFive-Card,
+.postSix-Card,
+.postSeven-Card,
+.postEight {
   width: 100%;
   height: 100%;
   align-items: center;
@@ -18,7 +21,10 @@ main {
 .postTwo-Article,
 .postThree-Article,
 .postFour-Article,
-.postFive-Article {
+.postFive-Article,
+.postSix-Article,
+.postSeven-Article,
+.postEight-Article {
   width: 100%;
   max-width: 1500px;
   padding: 10px;
@@ -31,7 +37,10 @@ main {
 .postOne-Image,
 .postTwo-Image,
 .postThree-Image,
-.postFive-Image {
+.postFive-Image,
+.postSix-Image,
+.postSeven-Image,
+.postEight-Image {
   min-width: 350px;
   max-width: 500px;
 
@@ -62,7 +71,10 @@ p {
 .readMoreButton,
 .readMoreButtonTwo,
 .readMoreButtonFour,
-.readMoreButtonFive {
+.readMoreButtonFive,
+.readMoreButtonSix,
+.readMoreButtonSeven,
+.readMoreButtonEight {
   width: 50%;
   height: 50px;
   position: relative;
@@ -76,7 +88,10 @@ p {
   left: 245px;
 }
 .readMoreButtonFour,
-.readMoreButtonFive {
+.readMoreButtonFive,
+.readMoreButtonSix,
+.readMoreButtonSeven,
+.readMoreButtonEight {
   left: 300px;
 }
 footer {
