@@ -30,9 +30,10 @@ function displayFooterElements(){
     let body = document.querySelector(".pageFrame");
     let footer = document.createElement("footer");
     let footerParagraph = document.createElement("p");
+
     body.appendChild(footer);
     footer.appendChild(footerParagraph);
-    
+
     footerParagraph.innerHTML = "Copyright &copy; 2021 My Interactive Media Site";
 }
 console.log(document.body);
