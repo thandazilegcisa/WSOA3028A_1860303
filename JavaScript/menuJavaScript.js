@@ -1,8 +1,8 @@
 const uiNavElements = [
-    {title:"Home", link: "/index.html"},
-    {title:"About", link:"/About/aboutIndex.html"},
-    {title:"Theory Blogs", link:"/Blogs/blogsIndex.html"},
-    {title:"Character Blogs", link:"/Character Content/characterContent.html"},
+    {title:"Home", link: "../index.html"},
+    {title:"About", link:"../About/aboutIndex.html"},
+    {title:"Theory Blogs", link:"../Blogs/blogsIndex.html"},
+    {title:"Character Blogs", link:"../Character Content/characterContent.html"},
 ];
 
 function displayUiNavElements(){
