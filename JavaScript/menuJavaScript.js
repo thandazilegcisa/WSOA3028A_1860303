@@ -1,8 +1,8 @@
 const uiNavElements = [
-    {title:"Home", link: "/index.html"},
-    {title:"About", link:"/About/aboutIndex.html"},
-    {title:"Theory Blogs", link:"/Blogs/blogsIndex.html"},
-    {title:"Character Blogs", link:"/Character Content/characterContent.html"},
+    {title:"Home", link: "../index.html"},
+    {title:"About", link:"../About/aboutIndex.html"},
+    {title:"Theory Blogs", link:"../Blogs/blogsIndex.html"},
+    {title:"Character Blogs", link:"../Character Content/characterContent.html"},
 ];
 
 function displayUiNavElements(){
@@ -38,4 +38,5 @@ function displayFooterElements(){
 }
 console.log(document.body);
 displayFooterElements();
-document.addEventListener('DOMContentLoaded', displayUiNavElements()); // The client is going execute this function when initial html doc has been completely loaded
+document.addEventListener('DOMContentLoaded', displayUiNavElements());
+document.addEventListener('DOMContentLoaded', () => displayUiNavElements) // The client is going execute this function when initial html doc has been completely loaded

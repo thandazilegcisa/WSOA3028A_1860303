@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Shared CSS/style.css" />
     <link rel="stylesheet" href="./Shared CSS/home.css" />
-    <script type="module" src="../JavaScript/menuJavaScript.js"></script>
+    <script type="module" src="./JavaScript/menuJavaScript.js"></script>
     <title>Home Page</title>
   </head>
   <body class="pageFrame">
-    <header id="navHeader" role="navigation" aria-label="Main"></header>
+    <header id="navHeader" role="navigation" aria-label="Main">
+      <!-- Added the following navigation just so that you can navigate the site but wrote javascript for it aswell, 
+      just could not pin point the problem in my paths for my links not to show on github pages despite the fact that
+       they render in live server, so confused-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./About/aboutIndex.html">About</a></li>
+          <li><a href="./Blogs/blogsIndex.html">Theory Blogs</a></li>
+          <li>
+            <a href="./Character Content/characterContent.html"
+              >Character Blogs</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <hr />
     <main>
       <figure>
