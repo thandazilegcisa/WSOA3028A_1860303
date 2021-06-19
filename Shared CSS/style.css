@@ -19,7 +19,7 @@ header {
   text-align: center;
 }
 header nav {
-  height: auto;
+  height: auto; /*Change this to a 100 because auto doe not stay consistent across all browsers*/
   width: auto;
   text-align: center;
   padding: 40px 40px 40px 40px;
