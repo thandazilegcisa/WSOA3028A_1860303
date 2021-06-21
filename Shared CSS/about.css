@@ -1,17 +1,17 @@
 @media screen and (max-width: 1008px) {
-  header { width:100%; } 
+  #navheader { width:100%; } 
   .pageFrame { width:100%; }  
   footer { width:100%; }  
 }
 
 @media screen and (max-width: 1060px) {
-  header { width:100%; } 
+  #navheader { width:100%; } 
   .pageFrame { width:100%; }  
   footer { width:100%; }    
 }
 
 @media screen and (max-width: 768px) {
-  header { width:100%; } 
+  #navheader { width:100%; } 
   .pageFrame { width:100%; }
   footer { width:100%; }
 }

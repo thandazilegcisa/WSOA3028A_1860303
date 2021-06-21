@@ -5,6 +5,23 @@
   background-color: whitesmoke;
   
 }*/
+@media screen and (max-width: 1008px) {
+  #navheader  { width:100%; } 
+  .pageFrame { width:100%; }  
+  footer { width:100%; }  
+}
+
+@media screen and (max-width: 1060px) {
+  #navheader  { width:100%; } 
+  .pageFrame { width:100%; }  
+  footer { width:100%; }    
+}
+
+@media screen and (max-width: 768px) {
+  #navheader  { width:100%; } 
+  .pageFrame { width:100%; }
+  footer { width:100%; }
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: white;
@@ -70,3 +87,4 @@ footer {
   text-align: center;
   padding: 20px 40px 20px 40px;
 }
+
