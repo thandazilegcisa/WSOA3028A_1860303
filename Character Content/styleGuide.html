@@ -6,17 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Shared CSS/style.css" />
     <link rel="stylesheet" href="../Shared CSS/home.css" />
+    <link rel="stylesheet" href="../Shared CSS/individualBlogs.css" />
     <script type="module" src="../JavaScript/menuJavaScript.js"></script>
     <title>Style Guide</title>
   </head>
-  <body>
-    <header id="navHeader" role="navigation" aria-label="Main"></header>
+  <body class="pageFrame">
+    <header id="navheader" role="navigation" aria-label="Main">
+      <!-- Added the following navigation just so that you can navigate the site but wrote javascript for it aswell, 
+      just could not pin point the problem in my paths for my links not to show on github pages despite the fact that
+       they render in live server, so confused-->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../About/aboutIndex.html">About</a></li>
+          <li><a href="../Blogs/blogsIndex.html">Theory Blogs</a></li>
+          <li>
+            <a href="../Character Content/characterContent.html"
+              >Character Blogs</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
     <main>
       <header>
         <h1>Style Guide:</h1>
       </header>
       <figure>
-        <img src="../Images/Style-Guide.png" alt="Image of Style Guide" />
+        <img
+          src="../Images/Style-Guide.png"
+          alt="An image of this website's style guide"
+        />
       </figure>
       <p>
         The reason why i chose the pallet included in the style guide is
@@ -41,5 +62,6 @@
         development of the website.
       </p>
     </main>
+    <hr />
   </body>
 </html>

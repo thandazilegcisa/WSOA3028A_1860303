@@ -60,8 +60,6 @@ main {
   transform: translateX(-125px);
   position: relative;
 }
-.postOne-Image:hover {
-}
 .forkingPathsImage,
 .bernersLeeImage,
 .browsersImage,
@@ -69,7 +67,8 @@ main {
 .mediumisMessageImage,
 .bernersLeeImage,
 .mediumisMessageImage,
-.interactivityImage {
+.interactivityImage,
+.tweetImage {
   width: 100%;
   height: auto;
   height: 100%;
@@ -98,8 +97,14 @@ main {
   color: black;
   font-size: 20px;
 }
-a:hover,
-button:hover {
+.readmorebutton:hover,
+.readmorebuttonTwo:hover,
+.readmorebuttonThree:hover,
+.readmorebuttonFour:hover,
+.readmorebuttonFive:hover,
+.readmorebuttonSix:hover,
+.readmorebuttonSeven:hover,
+.readmorebuttonEight:hover {
   cursor: pointer;
   box-shadow: 0 5px 0 #deb887;
 }
@@ -112,5 +117,5 @@ h2 {
 }
 footer {
   position: relative;
-  left: 380px;
+  left: 400px;
 }
