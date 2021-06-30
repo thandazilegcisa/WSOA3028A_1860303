@@ -62,12 +62,10 @@ ul li a:hover {
 #mybtn a:hover {
   color: gray;
 }
-.blogPostTitle a:hover {
-  color: gray;
-}
+
 .blogPostTitle {
-  width: 60% auto;
-  height: 60px;
+  width: 100%;
+  height: auto;
   display: grid;
   place-items: center;
 }

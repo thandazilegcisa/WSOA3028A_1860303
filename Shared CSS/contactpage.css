@@ -1,0 +1,44 @@
+
+#navheader{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+form{
+    margin: auto;
+    width: 100%;
+    width: 450px;
+    margin-top: 55px;
+    padding: 10px;
+    border: 0.1em solid #ccc;
+    border-radius: 25px; 
+}
+ul{
+    list-style: none;
+}
+form li + li{
+    margin-top: 1em;
+}
+label{
+    display: inline-flex;
+    width: 90px;
+    text-align: right;
+}
+input,
+textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    vertical-align: top;
+}
+hr{
+    float:none;
+    width: 90%;
+}
+.bottom_hr{
+    margin-top: 75px;
+}
+
