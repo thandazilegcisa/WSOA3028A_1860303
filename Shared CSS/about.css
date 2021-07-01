@@ -1,26 +1,50 @@
 @media screen and (max-width: 1008px) {
-  #navheader { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }  
+  #navheader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
-  #navheader { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }    
+  #navheader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #navheader { width:100%; } 
-  .pageFrame { width:100%; }
-  footer { width:100%; }
+  #navheader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 50px) {
-  #navheader { width:100%; } 
-  .pageFrame { width:100%; }
-  footer { width:100%; }
+  #navheader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
-.aboutImage{
+.aboutImage {
   width: 100%;
   height: auto;
 }
@@ -44,11 +68,12 @@ h1 {
   border-radius: 50%;
   width: 30%;
 }
-#navHeader{
+#navHeader {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
+  justify-content: center;
 }
 .twitter {
   width: 65px;
@@ -68,5 +93,3 @@ h1 {
 hr {
   float: none;
 }
-
-
