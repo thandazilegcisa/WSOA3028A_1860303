@@ -1,11 +1,11 @@
 const uiNavElements = [
-    {title:"Home", link: "../index.html"},
-    {title:"About", link:"../About/aboutIndex.html"},
-    {title:"Theory Blogs", link:"../Blogs/blogsIndex.html"},
-    {title:"Character Blogs", link:"../Character Content/characterContent.html"},
+    { title: "Home", link: "https://thandazilegcisa.github.io/WSOA3028A_1860303/index.html" },
+    { title: "About", link: "https://thandazilegcisa.github.io/WSOA3028A_1860303/About/aboutIndex.html" },
+    { title: "Theory Blogs", link: "https://thandazilegcisa.github.io/WSOA3028A_1860303/Blogs/blogsIndex.html" },
+    { title: "Character Blogs", link: "https://thandazilegcisa.github.io/WSOA3028A_1860303/Character Content/characterContent.html" },
 ];
 
-function displayUiNavElements(){
+function displayUiNavElements() {
 
     let header = document.querySelector("#navHeader");
 
@@ -14,19 +14,18 @@ function displayUiNavElements(){
     let ul = document.createElement("ul");
     nav.appendChild(ul);
 
-    for(let navItem of uiNavElements){
+    for (let navItem of uiNavElements) {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        
+
         a.innerText = navItem.title;
-        a.href = navItem.link;
+        a.basehref = navItem.link;
 
         ul.appendChild(li);
-        li.appendChild(a);  
+        li.appendChild(a);
     }
-    
 }
-function displayFooterElements(){
+function displayFooterElements() {
     let body = document.querySelector(".pageFrame");
     let footer = document.createElement("footer");
     let footerParagraph = document.createElement("p");
