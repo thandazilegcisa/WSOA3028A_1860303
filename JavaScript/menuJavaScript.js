@@ -3,6 +3,7 @@ const uiNavElements = [
     { title: "About", link: "/WSOA3028A_1860303/About/aboutIndex.html" },
     { title: "Theory Blogs", link: "/WSOA3028A_1860303/Blogs/blogsIndex.html" },
     { title: "Character Blogs", link: "/WSOA3028A_1860303/Character Content/characterContent.html" },
+    { title: "Contact Page", link: "/WSOA3028A_1860303/Contact Page/contactIndex.html"}
 ];
 
 function displayUiNavElements() {
@@ -20,8 +21,7 @@ function displayUiNavElements() {
 
         a.innerText = navItem.title;
         a.href = navItem.link;
-
-
+        
         ul.appendChild(li);
         li.appendChild(a);
     }
