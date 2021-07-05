@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Shared CSS/style.css" />
-    <link rel="stylesheet" href="../Shared CSS/contactpage.css">
-    <script type="module" src="../JavaScript/menuJavaScript.js"></script>
+    <link rel="stylesheet" href="../Shared CSS/contactpage.css" />
+    <script type="module" src="../menuJavaScript.js"></script>
     <title>Contact page</title>
-</head>
-<body class="pageFrame">
-    <header id="navHeader">
-    </header>
+  </head>
+  <body class="pageFrame">
+    <header id="navHeader"></header>
     <hr />
-    <Main>
-        <header>
-            <h1>Contact us:</h1>
-        </header>
-        <form action="https://formsubmit.co/gcisatahn@gmail.com" method="POST">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="mail" name="Name" required>
-                </li>
-                <li>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="mail" name="User Email" value="" >
-                </li>
-                <li>
-                    <label for="message">Message:</label>
-                    <textarea name="User Message" id="msg" cols="30" rows="10"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send Message</button>
-                </li>
-            </ul>
-        </form>
-    </Main>
-    <hr class="bottom_hr">
-</body>
+    <main>
+      <header>
+        <h1>Contact us:</h1>
+      </header>
+      <form action="https://formsubmit.co/gcisatahn@gmail.com" method="POST">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="mail" name="Name" required />
+          </li>
+          <li>
+            <label for="email">E-mail:</label>
+            <input type="email" id="mail" name="User Email" value="" />
+          </li>
+          <li>
+            <label for="message">Message:</label>
+            <textarea
+              name="User Message"
+              id="msg"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send Message</button>
+          </li>
+        </ul>
+      </form>
+      <section>
+        <address>
+          <p class="addressLinks">
+            You may also visit us at our offices:<br />
+            Curator South Africa<br />
+            331 E Doornfontein <br />
+            Johannesburg, CA 94041<br />
+            South Africa
+          </p>
+        </address>
+      </section>
+    </main>
+    <hr class="bottom_hr" />
+  </body>
 </html>

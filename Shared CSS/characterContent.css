@@ -1,34 +1,73 @@
 @media screen and (max-width: 1008px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }  
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }    
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }
-  footer { width:100%; }
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
+
 img {
   width: 50%;
   padding: 35px;
   float: left;
 }
+.caption {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
 .FirstSkateboardParagraph {
+  transform: translateY(5px);
+}
+.headerTwo-jazz_home {
+  font-size: xx-large;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 1px;
+}
+.column img {
+  width: 100%;
+}
+.youtubeVideo {
+  justify-content: center;
+}
+p {
   padding: 26px;
   text-align: justify;
 }
-.shoesHangingParagraph {
-  padding: 26px;
-  text-align: justify;
-}
+
 hr {
   float: none;
 }
-

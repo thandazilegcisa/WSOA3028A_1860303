@@ -1,19 +1,37 @@
 @media screen and (max-width: 1008px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }  
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }  
-  footer { width:100%; }    
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }
-  footer { width:100%; }
+  #navHeader {
+    width: 100%;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 p,
 h2 {

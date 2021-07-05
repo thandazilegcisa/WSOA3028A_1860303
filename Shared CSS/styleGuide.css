@@ -1,0 +1,7 @@
+.styleGuideImage {
+  float: left;
+  padding: 40px;
+}
+main p {
+  transform: translateY(25px);
+}

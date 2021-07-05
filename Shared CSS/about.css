@@ -7,41 +7,50 @@
   }
   footer {
     width: 100%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 1060px) {
-  #navheader {
+  #navHeader {
     width: 100%;
+    height: auto;
   }
   .pageFrame {
     width: 100%;
   }
   footer {
     width: 100%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #navheader {
+  #navHeader {
     width: 100%;
+    height: auto;
   }
   .pageFrame {
     width: 100%;
   }
   footer {
     width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 50px) {
-  #navheader {
+  #navHeader {
     width: 100%;
+    height: auto;
   }
   .pageFrame {
     width: 100%;
   }
   footer {
     width: 100%;
+    height: auto;
+
+    transform: translateX(500px);
   }
 }
 .aboutImage {
@@ -69,26 +78,30 @@ h1 {
   width: 30%;
 }
 #navHeader {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   height: auto;
   justify-content: center;
 }
 .twitter {
+  width: 100%;
   width: 65px;
   padding-left: 35px;
   padding-right: 35px;
 }
 .facebook {
+  width: 100%;
   width: 65px;
   padding-left: 35px;
   padding-right: 35px;
 }
 .instagram {
+  width: 100%;
   width: 65px;
   padding-left: 35px;
   padding-right: 35px;
+}
+.socialMediaIcons {
+  transform: translateX(60px);
 }
 hr {
   float: none;

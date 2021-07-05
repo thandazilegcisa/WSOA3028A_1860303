@@ -1,35 +1,67 @@
 @media screen and (max-width: 1008px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }
-  .blogIndexDocument{
+  #navHeader {
     width: 100%;
-    height:auto;
+    height: auto;
   }
-  footer { width:100%; }  
+  .pageFrame {
+    width: 100%;
+  }
+  .blogIndexDocument {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; } 
-  .blogIndexDocument{
+  #navHeader {
     width: 100%;
-    height:auto;
-  } 
-  footer { width:100%; }    
+    height: auto;
+  }
+  .pageFrame {
+    width: 100%;
+  }
+  .blogIndexDocument {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #navheader  { width:100%; } 
-  .pageFrame { width:100%; }
-  .blogIndexDocument{
+  #navHeader {
     width: 100%;
-    height:auto;
+    height: auto;
   }
-  footer { width:100%; }
+  .pageFrame {
+    width: 100%;
+    height: auto;
+  }
+  .blogIndexDocument {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .readMoreButton,
+  .readMoreButtonTwo,
+  .readMoreButtonFour,
+  .readMoreButtonFive,
+  .readMoreButtonSix,
+  .readMoreButtonSeven,
+  .readMoreButtonEight {
+    width: 100%;
+    height: auto;
+  }
 }
-*{
-  box-sizing: border-box;
-}
+
 main {
   width: 100%;
   display: flex;
@@ -40,36 +72,28 @@ main {
   /*float: left;
   */
 }
-.blogIndexDocument{
-  width: 100%;
-  height:auto;
-}
-
-.postOne-Card,
-.postTwo-Card,
-.postThree-Card,
-.postFour-Card,
-.postFive-Card,
-.postSix-Card,
-.postSeven-Card,
-.postEight-Card {
-  border-radius: 150px;
-  box-shadow: 0 1rem 0.8rem rgba(0, 1, 1, 0.171);
-}
-
-.postOne-Article,
-.postTwo-Article,
-.postThree-Article,
-.postFour-Article,
-.postFive-Article,
-.postSix-Article,
-.postSeven-Article,
-.postEight-Article,
-.postNine-Article,
-.postTen-Article,
-.postEleven-Article {
+.blogIndexDocument {
   width: 100%;
   height: auto;
+}
+
+.post-Card {
+  border-radius: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+}
+.post-Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.post-Article {
+  width: 100%;
+  height: auto;
+  padding: 2px 16px;
   background-color: #f5f5f5;
   box-shadow: 0 0.2rem 0.8rem rgba(0, 1, 1, 0.171);
 }
@@ -146,8 +170,3 @@ h2 {
   margin-left: 20px;
   margin-right: 30%;
 }
-footer {
-  position: relative;
-  left: 400px;
-}
-
