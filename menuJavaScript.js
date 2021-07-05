@@ -1,16 +1,16 @@
 const aboutPosts =[
-    {title: "Wireframes",link: "../Character Content/Website Wireframes.pdf"},
-    {title: "Style Guide", link: "/Character Content/styleGuide.html"}
+    {title: "Wireframes",link: "/WSOA3028A_1860303/Character Content/Website Wireframes.pdf"},
+    {title: "Style Guide", link: "/WSOA3028A_1860303/Character Content/styleGuide.html"}
 ];
 const blogPosts =[
-    {title: "Theory", link: "/Blogs/blogsIndex.html"},
-    {title: "Character", link: "/Character Content/characterContent.html"},
+    {title: "Theory", link: "/WSOA3028A_1860303/Blogs/blogsIndex.html"},
+    {title: "Character", link: "/WSOA3028A_1860303/Character Content/characterContent.html"},
 ];
 const uiNavElements = [
-    { title: "Contact Page", link: "/Contact Page/contactIndex.html"},
-    { title: "Blogs", link: "/Blogs/blogsIndex.html" },
-    { title: "About", link: "/About/aboutIndex.html"},
-    { title: "Home", link: "/index.html"}   
+    { title: "Contact Page", link: "/WSOA3028A_1860303/Contact Page/contactIndex.html"},
+    { title: "Blogs", link: "/WSOA3028A_1860303/Blogs/blogsIndex.html" },
+    { title: "About", link: "/WSOA3028A_1860303/About/aboutIndex.html"},
+    { title: "Home", link: "/WSOA3028A_1860303/index.html"}   
 ];
 
 let foundIndex = uiNavElements.findIndex(function(post, index) {
